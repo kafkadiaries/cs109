@@ -7,3 +7,10 @@ Course reader github: https://github.com/chrispiech/probabilityForComputerScient
 
 Problem sets are not accessible for non-students; however, course text is readily available through the course reader. Text is inspired by Sheldon Ross' *A First Course in Probability*.
 
+## Sections
+
+<details>Part 1: Core Probability</details>
+<details>Part 2: Random Variables</details>
+<details>Part 3: Probabilistic Models</details>
+<details>Part 4: Uncertainty Theory</details>
+<details>Part 5: Machine Learning</details>
