@@ -1,3 +1,7 @@
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
 # Stanford's CS109: Probability for Computer Scientists Notes
 
 ## Summary
@@ -9,9 +13,9 @@ Problem sets are not accessible for non-students; however, course text is readil
 
 ## Sections
 <details open>
-  <summary><strong>Part 1: Foundations</strong></summary>
+  <summary><strong>Part 1: Foundations</strong></summary>  
 
-  1. Counting
+  1. [Counting](part-1/counting.md)
   2. Combinatorics
   3. Definition of Probability
   4. Equally Likely Outcomes
