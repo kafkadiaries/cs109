@@ -8,7 +8,7 @@ Course reader github: https://github.com/chrispiech/probabilityForComputerScient
 Problem sets are not accessible for non-students; however, course text is readily available through the course reader. Text is inspired by Sheldon Ross' *A First Course in Probability*.
 
 ## Sections
-<details>
+<details open>
   <summary><strong>Part 1: Foundations</strong></summary>
 
   1. Counting
@@ -24,7 +24,7 @@ Problem sets are not accessible for non-students; however, course text is readil
      * Set Diversity (Gini Impurity)
 </details>
 
-<details>
+<details open>
   <summary><strong>Part 2: Core Probability</strong></summary>
 
   1. Probability of **or**
