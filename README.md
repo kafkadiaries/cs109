@@ -24,7 +24,21 @@ Problem sets are not accessible for non-students; however, course text is readil
      * Set Diversity (Gini Impurity)
 </details>
 
-**<details><summary>Part 2: Core Probability</summary></details>**
+<details>
+  <summary><strong>Part 2: Core Probability</strong></summary>
+
+  1. Probability of **or**
+  2. Conditional Probability
+  3. Independence
+  4. Probability of **and**
+  5. De Morgan's Law
+  6. Law of Total Probability
+  7. Bayes' Theorem
+  8. Many Coin Flips
+  9. Applications
+      * Bacteria Evolution
+</details>
+
 **<details><summary>Part 3: Random Variables</summary></details>**
 **<details><summary>Part 4: Probabilistic Models</summary></details>**
 **<details><summary>Part 5: Uncertainty Theory</summary></details>**
