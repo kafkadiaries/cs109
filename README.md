@@ -1,7 +1,3 @@
-<head>
-  <link rel="stylesheet" href="styles.css">
-</head>
-
 # Stanford's CS109: Probability for Computer Scientists Notes
 
 ## Summary
