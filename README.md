@@ -9,8 +9,8 @@ Problem sets are not accessible for non-students; however, course text is readil
 
 ## Sections
 
-<details><summary>Part 1: Core Probability</summary></details>
-<details><summary>Part 2: Random Variables</summary></details>
-<details><summary>Part 3: Probabilistic Models</summary></details>
-<details><summary>Part 4: Uncertainty Theory</summary></details>
-<details><summary>Part 5: Machine Learning</summary></details>
+<details><summary>**Part 1: Core Probability**</summary></details>
+<details><summary>**Part 2: Random Variables**</summary></details>
+<details><summary>**Part 3: Probabilistic Models**</summary></details>
+<details><summary>**Part 4: Uncertainty Theory**</summary></details>
+<details><summary>**Part 5: Machine Learning**</summary></details>
