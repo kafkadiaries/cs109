@@ -63,3 +63,15 @@ The total number of unique outcomes derived from source A or B depends on whethe
    * Total outcomes = 64 + 64 - 16 = 112
    
 ## Overcounting and Correcting
+
+One handy strategy for counting is to overcount and correct for duplicates, especially if it's easy to generate all outcomes. Then, correct with subtraction if the exact duplicate amount is known or division if it produces multiples. 
+
+#### Examples
+
+1. Consider an image with 4 pixels (2x2) with reduced color options wherein each pixel can be either blue or white.
+   * **First, how many total images can be generated?** 2^<sup>4</sup> = 16 images
+   * Now, let's introduce a constraint: we only want images with odd number of blue and white pixels (1 or 3 pixels)
+   * Using mutual exclusion where |A| = 1 white pixel, 3 blue and |B| = 1 blue pixel, 3 white:
+   * **|A or B| = 4 + 4 = 8 images with odd number of blue or white**
+   * Finally, let's add one more constraint: mirror indistinction - if you can flip an image horizontally and it creates another image, then it is not considered unique.
+   * As a result, this again reduces the number of outcomes by half: 4.
