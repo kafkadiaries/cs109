@@ -12,10 +12,10 @@ Problem sets are not accessible for non-students; however, course text is readil
   <summary><strong>Part 1: Foundations</strong></summary>  
 
   1. [Counting](part-1/counting.md)
-  2. Combinatorics
-  3. Definition of Probability
-  4. Equally Likely Outcomes
-  5. Axioms of Probability
+  2. [Combinatorics](part-1/combinatorics.md)
+  3. [Definition of Probability](part-1/definition-of-probability.md)
+  4. [Equally Likely Outcomes](part-1/equally-likely-outcomes.md)
+  5. [Axioms of Probability](part-1/axioms-of-probability.md)
   6. Applications
      * Engima Machine
      * Serendipity
