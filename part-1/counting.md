@@ -33,5 +33,33 @@ Counting is the foundation of probability.
 
 ## Counting with Or
 
+The total number of unique outcomes derived from source A or B depends on whether or not they are mutually exclusive (i.e. they don't don't share any outcomes).
 
+> [!NOTE]
+> **Mutually Exclusive Counting**  
+> If the outcome of an experiment can be drawn from set A or set B, and none of the outcomes in set A are in set B then:  
+> **|A or B| = |A| + |B|**
+
+### Examples
+
+1. **Sum of Routes**
+   * **Find the total number of routes from Nairobi to Dar Es Salaam that pass through Mt. Kilimanjaro or Mombasa.**
+   * There are 20 routes that pass through the former, 15 through the latter, and 0 paths through both.
+   * 20 + 15 = 35 
+
+> [!NOTE]
+> **Inclusion Exclusion Counting**  
+> If the outcome can be drawn from set A or B, and sets A and B may potentially overlap, then:  
+> **|A or B| = |A| + |B| - |A and B|**  
+
+### Examples
+
+1. **An 8 bit string sent over a network**
+   * A valid string must either start with '01' or end with '10'. **How many such strings are there?**
+   * |A| = '01' + 2<sup>6</sup>
+   * |B| = 2<sup>6</sup> + '10'
+   * |A and B| = '01' + 2<sup>4</sup> + '10'
+   * Total outcomes = |A| + |B| - |A and B|
+   * Total outcomes = 64 + 64 - 16 = 112
+   
 ## Overcounting and Correcting
