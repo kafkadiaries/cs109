@@ -73,5 +73,29 @@ Bucketing = group assignment or the many different ways we can stuff elements in
 
 ## Bucketing with Indistinct Objects
 
+> [!NOTE]
+> Place *n* indistinguisable objects in *r* distinct groups.  
+> Use stars and banners technique (fence post problem)  
+> *n* = stars, *r - 1* = banners/dividers  
+> ```math
+> (n + r - 1)! / n!(r-1)! = {n+r-1 \choose n} = {n+r-1 \choose r-1}
+> ```
+
+### Examples
+
+1. **How many ways to invest $10 million dollars in 4 companies (in $1 million increments)?**
+   * Consider this as 10 balls in 4 containers.
+   * *n* = 10, *r* = 4  
+```math
+   {10+4-1 \choose 10} = {13 \choose 10} = 286
+```
 
 ## Bucketing with Fixed Sized Containers
+
+Same formula as "Permutations with indistinct objects"
+
+### Examples
+
+1. Company Camazon has 13 distinct new servers and would like to divy them up to 3 data centers where data center A, B, and C have 6, 4, and 3 empty racks. **How many different divisions of servers are possible?**
+```math
+{13 \choose 6,4,3} = 13!/6!4!3! = 60,060
